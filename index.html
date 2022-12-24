@@ -114,13 +114,8 @@ s0.parentNode.insertBefore(s1,s0);
         } else if(prediction[1].className == "pencil" && prediction[1].probability.toFixed(2) == 1.00){
             labelContainer.childNodes[0].innerHTML = "My Precious pencil case"
         } else {
-            labelContainer.childNodes[i].innerHTML =  "엥? 이게 뭐지"
+            labelContainer.childNodes[0].innerHTML =  "엥? 이게 뭐지"
         }
-        // for (let i = 0; i < maxPredictions; i++) {
-        //     const classPrediction =
-        //         prediction[i].className + ": " + prediction[i].probability.toFixed(2);
-        //     labelContainer.childNodes[i].innerHTML = classPrediction;
-        // }
     }
 </script>
 
